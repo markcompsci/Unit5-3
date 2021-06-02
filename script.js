@@ -12,7 +12,7 @@ const body = document.getElementsByTagName('body')[0]
 
 // Once clicked the Change Image button, it changes the img between the first lion picture and the second lion picture
 changeImg.addEventListener('click', () => {
-  if (img.src == 'https://unit5-4.markcompsci.repl.co/images/lion1.jpg') {
+  if (img.src === 'https://unit5-4.markcompsci.repl.co/images/lion1.jpg') {
     img.src = 'https://unit5-4.markcompsci.repl.co/images/lion2.jpg'
   } else {
     img.src = 'https://unit5-4.markcompsci.repl.co/images/lion1.jpg'
