@@ -12,33 +12,33 @@ const body = document.getElementsByTagName('body')[0]
 
 // Once clicked the Change Image button, it changes the img between the first lion picture and the second lion picture
 changeImg.addEventListener('click', () => {
-  if (img.src == "https://unit5-4.markcompsci.repl.co/images/lion1.jpg") {
-    img.src = "https://unit5-4.markcompsci.repl.co/images/lion2.jpg"
+  if (img.src == 'https://unit5-4.markcompsci.repl.co/images/lion1.jpg') {
+    img.src = 'https://unit5-4.markcompsci.repl.co/images/lion2.jpg'
   } else {
-    img.src = "https://unit5-4.markcompsci.repl.co/images/lion1.jpg"
+    img.src = 'https://unit5-4.markcompsci.repl.co/images/lion1.jpg'
   }
 })
 
 // Once clicked, text will change
 changeTxt.addEventListener('click', () => {
-  if (txt.textContent === "Some Text") {
-    txt.textContent = "Text Changed"
+  if (txt.textContent === 'Some Text') {
+    txt.textContent = 'Text Changed'
   } else {
-    txt.textContent = "Some Text"
+    txt.textContent = 'Some Text'
   }
 })
 
 // Once clicked, text will disappear
 disappear.addEventListener('click', () => {
-  txt.style.display = "none"
+  txt.style.display = 'none'
 })
 
 // Once clicked, text will reappear, taking up the entire block
 reappear.addEventListener('click', () => {
-  txt.style.display = "block"
+  txt.style.display = 'block'
 })
 
 // Once clicked, background will be orange
 bgBtn.addEventListener('click', () => {
-  body.style.backgroundColor = "orange"
+  body.style.backgroundColor = 'orange'
 })
